@@ -1,0 +1,69 @@
+:root {
+    --font-default: 'Lato', sans-serif;
+    --font-primary: 'Finger Paint', cursive;
+    --font-secondary: 'Salsa', cursive;
+  }
+  
+  /* My Colors */
+  :root {
+    --color-default: rgb(36, 36, 36);
+    --color-primary: #BA2B40;
+    --color-secondary: #661723;
+    --color-tertiary: #ED3752;
+    --color-floaters: #F07F90;
+  }
+
+.customheader{
+    font-family: var(--font-primary) !important;
+}
+
+.section-header{
+    font-family: var(--font-secondary);
+}
+
+.section-bg {
+    background-color: #ffdfe4;
+}
+
+.about-img{
+    background-size: cover;
+}
+
+.stats-counter{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/custom/neon2.jpg) center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.menu-item img{
+    height: 400px;
+}
+
+.menu .tab-content .menu-item .location {
+    font-family: var(--font-default);
+}
+
+.score{
+    font-family: var(--font-primary);
+}
+
+.request-form-bg{
+    background-color: #ffdfe4;
+}
+
+.navbar>ul>li .navlink{
+    font-family: var(--font-default);
+}
+
+img{
+    border-radius: 1%;
+}
+
+.rules-img{
+    border-radius: 1%;
+}
+
+#ratings .nav-link h4 {
+    font-family: var(--font-default);
+}
+

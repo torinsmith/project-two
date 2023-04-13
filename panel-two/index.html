@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Nado's Pizza Ratings V2.0</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Yummy - v1.3.0
+  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1><span>Nado's </span>Pizza Ratings</h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#rules">Rules</a></li>
+          <li><a href="#ratings">Ratings</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown"><a href="#"><span>Panels</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="../panel-one/index.html">Panel One</a></li>
+              <li><a href="../panel-two/index.html">Panel Two</a></li>
+              <li><a href="../panel-three/index.html">Panel Three</a></li>
+            </ul>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <a class="btn-book-a-table" href="#submit-a-request">Request a Review</a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Trust the <br><span>Pizza Experts</span></h2>
+          <p data-aos="fade-up" data-aos-delay="100">Nado's Pizza Ratings are written by pizza lovers, for pizza lovers.</p>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#ratings" class="btn-book-a-table">Browse Ratings</a>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="assets/img/custom/headerpizza.jpg" class="img-fluid" alt="a beautiful pizza pie" data-aos="zoom-out" data-aos-delay="300">
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Rules Section ======= -->
+    <section id="rules" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Rules</h2>
+          <p>Nado's Pizza Ratings <span>Official Rules</span></p>
+        </div>
+<!--Fix background image in Panel Three Properties are Cover and Contain-->
+        <div class="row gy-4">
+          <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/custom/neon1.jpg);" data-aos="fade-up" data-aos-delay="150">
+            <div class="call-us position-absolute">
+              <h4>Contact Us!</h4>
+              <p>torinsmith97@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                All pies are rated according to these guidelines:
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i>Each reviewed pie will recieve a score on the 10-point scale to the first decimal, with "10.0" being a perfect pie. </li>
+                <li><i class="bi bi-check2-all"></i> Pepperoni is a preferred topping, but is not required. Additional toppings are allowed on a case by case basis at the reviewer's discretion.</li>
+                <li><i class="bi bi-check2-all"></i>The following toppings are STRICTLY prohibited:
+                  <ul> 
+                    <li><i class="bi bi-check2-all"></i>Pineapple</li>
+                  </ul>
+                </li>
+                </ul>
+              <p>
+                Rules are subject to change. <a href="#contact">Contact us</a> to suggest rule changes.
+              </p>
+
+              <div class="position-relative mt-4">
+                <img src="assets/img/custom/rules2.jpg" class="img-fluid" alt="An artisan pizza pie">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Rules Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-box">
+              <h3>Why Nado's?</h3>
+              <p>
+               Nado's Pizza Ratings are written by pizza lovers, for pizza lovers. At Nado's, we are committed to providing you with the most comprehensive and fair pizza reviews on the internet. No gimmicks.
+              </p>
+              <div class="text-center">
+                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div><!-- End Why Box -->
+
+          <div class="col-lg-8 d-flex align-items-center">
+            <div class="row gy-4">
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-clipboard-data"></i>
+                  <h4>Our Philosophy</h4>
+                  <p>Good pizza is for everyone. Everyone is for good pizza.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-gem"></i>
+                  <h4>Find a Gem</h4>
+                  <p>Discover your next favorite pizza spot.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-inboxes"></i>
+                  <h4>Get Recognition</h4>
+                  <p>Show support for your favorite pizza place.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Stats Counter Section ======= -->
+    <section id="stats-counter" class="stats-counter">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Pizza Expert</p>
+            </div>
+          </div><!-- End Stats Item -->
+          
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Ratings</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+              <p>States</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="27228" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Calories Eaten</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Stats Counter Section -->
+
+    <!-- ======= Ratings Section ======= -->
+    <section id="ratings" class="menu">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Ratings</h2>
+          <p>Nado's Official <span>Pizza Ratings</span></p>
+        </div>
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
+              <h4>Top Rated</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
+              <h4>Worst Rated</h4>
+            </a><!-- End tab nav item -->
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="tab-pane fade active show" id="menu-starters">
+
+            <div class="tab-header text-center">
+              <h3>Top Rated</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/custom/pizzajeans.jpg" class="glightbox"><img src="assets/img/custom/pizzajeans.jpg" class="menu-img img-fluid" alt="Pizza Pie from Pizza Jeans"></a>
+                <h4>Pizza Jeans</h4>
+                <p class="ingredients">
+                  Atlanta, GA
+                </p>
+                <p class="price">
+                  7.8
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/custom/mellow.jpg" class="glightbox"><img src="assets/img/custom/mellow.jpg" class="menu-img img-fluid" alt="Pizza Pie from Mellow Mushroom"></a>
+                <h4>Mellow Mushroom (chain)</h4>
+                <p class="ingredients">
+                  Gainesville, GA
+                </p>
+                <p class="price">
+                  7.6
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a  href="assets/img/custom/depalmas.jpg" class="glightbox"><img src="assets/img/custom/depalmas.jpg" class="menu-img img-fluid" alt="Pizza Pie from Depalma's in downtown Athens, Ga"></a>
+                <h4>Depalma's (chain)</h4>
+                <p class="ingredients">
+                  Athens, GA
+                </p>
+                <p class="price">
+                  7.6
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/custom/grandmas.jpg" class="glightbox"><img src="assets/img/custom/grandmas.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Grandma's NY Pizza</h4>
+                <p class="ingredients">
+                  Cumming, GA
+                </p>
+                <p class="price">
+                  7.4
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="./assets/img/custom/tedsmostbest.JPG" class="glightbox"><img src="./assets/img/custom/tedsmostbest.JPG" class="menu-img img-fluid" alt=""></a>
+                <h4>Ted's Most Best</h4>
+                <p class="ingredients">
+                  Athens, GA
+                </p>
+                <p class="price">
+                  7.2
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/custom/nichetate.jpg" class="glightbox"><img src="assets/img/custom/nichetate.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>The Niche Pizza Co.</h4>
+                <p class="ingredients">
+                  Athens, GA
+                </p>
+                <p class="price">
+                  6.9
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Best Rated Section -->
+
+          <!--Worst Rated Section-->
+          <div class="tab-pane fade" id="menu-breakfast">
+
+            <div class="tab-header text-center">
+              <h3>Worst Rated</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/custom/wethepizza.jpg" class="glightbox"><img src="assets/img/custom/wethepizza.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>We the Pizza</h4>
+                <p class="ingredients">
+                  Clearwater Beach, FL
+                </p>
+                <p class="price">
+                  5.3
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/custom/italysbuford.jpg" class="glightbox"><img src="assets/img/custom/italysbuford.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Italy's</h4>
+                <p class="ingredients">
+                  Buford, GA
+                </p>
+                <p class="price">
+                  5.0
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/custom/stoners.jpg" class="glightbox"><img src="assets/img/custom/stoners.jpg" class="menu-img img-fluid" alt="A pizza pie from Stoner's Pizza Joint"></a>
+                <h4>Stoner's Pizza Joint</h4>
+                <p class="ingredients">
+                  Savannah, GA
+                </p>
+                <p class="price">
+                  4.20
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/custom/marcopolo.jpg" class="glightbox"><img src="assets/img/custom/marcopolo.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Marco Polo Pizza</h4>
+                <p class="ingredients">
+                  Myrtle Beach, SC
+                </p>
+                <p class="price">
+                  3.5
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/custom/snelling.jpg" class="glightbox"><img src="assets/img/custom/snelling.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Snelling Dining Commons</h4>
+                <p class="ingredients">
+                  University of Georgia, Athens, GA
+                </p>
+                <p class="price">
+                  1.6
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/custom/littlejoe.jpg" class="glightbox"><img src="assets/img/custom/littlejoe.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Little Joe's Pizza</h4>
+                <p class="ingredients">
+                  Knoxville, TN
+                </p>
+                <p class="price">
+                  0.8
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- Worst Rated Content -->
+
+        </div>
+
+      </div>
+    </section><!-- End Ratings Section -->
+
+    <!-- ======= Submit a Request Section ======= -->
+    <section id="submit-a-request" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Submit a Review Request</h2>
+          <p>Get <span>your restaurant </span>reviewed</p>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/custom/neon2.jpg);" data-aos="zoom-out" data-aos-delay="200"></div>
+
+          <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
+            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Restaurant Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" name="date" class="form-control" id="date" placeholder="Location" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your review request was sent. We will call back or send an Email to confirm details. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Submit a Request</button></div>
+            </form>
+          </div><!-- End Reservation Form -->
+
+        </div>
+
+      </div>
+    </section><!--End Submit a Request Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Need Help? <span>Contact Us</span></p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center">
+              <i class="icon bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>torinsmith97@gmail.com</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+1 (999) 999-9999</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copywrite <strong><span>Nado's Pizza</span></strong>. No Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+.bg-custom{
+    background-image: url(../assets/img/vintage-concrete.webp)
+}
+.bg-custom-nav{
+    background-color: #7A2621;
+}
+.text-custom{
+    color: #CED943;
+    font-family: 'Marck Script', cursive;
+    font-size: xx-large;
+}
+ h2{
+    font-family: 'Poppins', sans-serif;
+ }
+
+ .headingcontainer{
+    background-color: #16548C;
+    color: white;
+ }
+
+ h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+ }
+
+ .card-custom{
+    background-color: #187DD9;
+    color: white;
+ }
+
+ .card-footer{
+   background-color: #16548C;
+ }
+
+ .text-score{
+    color: greenyellow;
+ }
+
+.date-reviewed{
+    color:greenyellow
+}
+
+.stock-img{
+   max-width:100%;
+}
